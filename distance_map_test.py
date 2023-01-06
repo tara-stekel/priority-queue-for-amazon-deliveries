@@ -10,7 +10,7 @@ def test_neg_distance() -> None:
     assert m.distance('Toronto', 'Hamilton') == 9
 
 def test_add_distance_normal() -> None:
-    """Testing if this shit even works normally"""
+    """Testing if this even works normally"""
     m = DisntaceMap()
     m.add_distance('Toronto', 'Hamilton', 9)
     assert m.distance('Toronto', 'Hamilton') == 9
